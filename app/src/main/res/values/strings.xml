@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">aplicacion_M13</string>
+    <string name="Nombre">Nombre</string>
+    <string name="Contraseña">Contraseña</string>
+    <string name="Login">Login</string>
 </resources>
