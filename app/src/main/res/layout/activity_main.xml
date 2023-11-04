@@ -42,12 +42,14 @@
         android:ems="10"
         android:inputType="text"
         android:text=""
+        android:background="@color/Azul_claro"
         android:hint="@string/Nombre"
+        android:elevation="15dp"
+        android:padding="15dp"
         app:layout_constraintBottom_toTopOf="@+id/guideline2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline" />
-
     <EditText
         android:id="@+id/editTextContra"
         android:layout_width="wrap_content"
@@ -55,6 +57,9 @@
         android:ems="10"
         android:inputType="textPassword"
         android:text=""
+        android:background="@color/Azul_claro"
+        android:elevation="15dp"
+        android:padding="15dp"
         android:hint="@string/Contraseña"
         app:layout_constraintBottom_toTopOf="@+id/guideline3"
         app:layout_constraintEnd_toEndOf="parent"
@@ -63,10 +68,13 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="130dp"
-        android:layout_height="45dp"
+        android:layout_width="153dp"
+        android:layout_height="53dp"
+        android:backgroundTint="@color/Gris_claro"
+        android:elevation="15dp"
+        android:padding="15dp"
         android:text="@string/Login"
-        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toTopOf="@+id/guideline4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.829"

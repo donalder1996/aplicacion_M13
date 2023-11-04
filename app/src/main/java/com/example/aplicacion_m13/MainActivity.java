@@ -2,6 +2,7 @@ package com.example.aplicacion_m13;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -36,15 +37,32 @@ public class MainActivity extends AppCompatActivity {
             if (usuario.isEmpty() && contrasena.isEmpty()) {
                 Toast.makeText(this, "campos en blanco", Toast.LENGTH_SHORT).show();
 
-            }
-            if (usuario.isEmpty()) {
+            }else if (usuario.isEmpty()) {
                 Toast.makeText(this, "usuario en blanco", Toast.LENGTH_SHORT).show();
-            }
-            if (contrasena.isEmpty()) {
+            }else if (contrasena.isEmpty()) {
                 Toast.makeText(this, "contraseña en blanco", Toast.LENGTH_SHORT).show();
 
 
             }
+            //Esto lanzaría el ectivity de la información del empleado
+            if(usuario.equals("jonathan") && contrasena.equals("123456")){
+                Intent intent = new Intent(this, ActivityEmpleados.class);
+                startActivity(intent);
+                finish();
+
+            }else{
+                Toast.makeText(this, "Contraseña incorrecta", Toast.LENGTH_SHORT).show();
+            }
+            //Esto lanzaría el activity del empleado con poder para editar la base de datos
+            if(usuario.equals("jonathan") && contrasena.equals("654321")){
+                Intent intent1 = new Intent(this, ActivityEmpleadosEditar.class);
+                startActivity(intent1);
+                finish();
+
+            }else{
+                Toast.makeText(this, "usuario en blanco", Toast.LENGTH_SHORT).show();
+            }
+
 
         }
 
