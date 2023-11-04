@@ -44,25 +44,22 @@ public class MainActivity extends AppCompatActivity {
 
 
             }
+
             //Esto lanzaría el ectivity de la información del empleado
             if(usuario.equals("jonathan") && contrasena.equals("123456")){
                 Intent intent = new Intent(this, ActivityEmpleados.class);
                 startActivity(intent);
                 finish();
 
-            }else{
-                Toast.makeText(this, "Contraseña incorrecta", Toast.LENGTH_SHORT).show();
-            }
-            //Esto lanzaría el activity del empleado con poder para editar la base de datos
-            if(usuario.equals("jonathan") && contrasena.equals("654321")){
+            }else if (usuario.equals("jonathan") && contrasena.equals("654321")){
                 Intent intent1 = new Intent(this, ActivityEmpleadosEditar.class);
                 startActivity(intent1);
                 finish();
 
-            }else{
-                Toast.makeText(this, "usuario en blanco", Toast.LENGTH_SHORT).show();
             }
-
+            else{
+                Toast.makeText(this, "Contraseña incorrecta", Toast.LENGTH_SHORT).show();
+            }
 
         }
 

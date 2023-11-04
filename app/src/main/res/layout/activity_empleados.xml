@@ -10,12 +10,40 @@
 
     <EditText
         android:id="@+id/editTextText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="262dp"
+        android:layout_height="52dp"
         android:ems="10"
         android:inputType="text"
-        android:text="Name"
-        tools:layout_editor_absoluteX="82dp"
-        tools:layout_editor_absoluteY="272dp"
-        tools:ignore="MissingConstraints" />
+        android:hint="@string/Nombre"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="61dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.2" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.4" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="441dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.8" />
 </androidx.constraintlayout.widget.ConstraintLayout>
