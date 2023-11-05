@@ -1,0 +1,6 @@
+<resources>
+    <style name="Boton_Personalizado" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:background">@drawable/boton_personalizado_background</item>
+        <item name="android:textColor">@color/colorTextoBoton</item>
+    </style>
+</resources>

@@ -3,5 +3,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="Azul_claro">#ADB9FF</color>
-    <color name="Gris_claro">#757677</color>
+    <color name="colorBotonNormal">#2196F3</color>
+    <color name="colorBotonPresionado">#1565C0</color>
+    <color name="colorTextoBoton">#FFFFFF</color>
 </resources>

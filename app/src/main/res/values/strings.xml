@@ -3,4 +3,9 @@
     <string name="Nombre">Nombre</string>
     <string name="Contraseña">Contraseña</string>
     <string name="Login">Login</string>
+    <string name="Datos">Datos</string>
+    <string name="Listado">Lista de empleados</string>
+    <string name="boton_añadir">Añadir</string>
+    <string name="boton_eliminar">Eliminar</string>
+    <string name="boton_editar">Editar</string>
 </resources>
