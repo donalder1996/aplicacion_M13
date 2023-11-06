@@ -8,4 +8,8 @@
     <string name="boton_añadir">Añadir</string>
     <string name="boton_eliminar">Eliminar</string>
     <string name="boton_editar">Editar</string>
-</resources>
+    <string name="Apellido">Apellido</string>
+    <string name="Usuario">Usuario</string>
+    <string name="Departamento">Departamento</string>
+    <string name="Añadir">Añadir</string>
+    </resources>

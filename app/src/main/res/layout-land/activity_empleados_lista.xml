@@ -26,7 +26,7 @@
     <Button
         style="@style/Boton_Personalizado"
         android:id="@+id/button1"
-        android:layout_width="412dp"
+        android:layout_width="match_parent"
         android:layout_height="50dp"
         android:text="@string/boton_añadir"
         android:textColor="#212121" />
